@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="menu">
+            <div class="text-center">
+                <button style="float: left; background-color:#f7f1f100; color: white; border:none;" onclick="showMenu()"><h6><u>Menu</u></h6></button>
+                <div class="menu-vertical" id="show"><br>
+                    <div class="btn-menu">
+                        <button onclick="hiddeMenu()" style="border:none"><u>Close</u></button>
+                    </div>
+
+                    <br>
+                    <hr>
+
+                    <button type="button" class="dropdown-item">
+                            Trang Chủ
+                            </button>
+                    <button type="button" class="dropdown-item">
+                                Giới Thiệu
+                            </button>
+                    <button type="button" class="dropdown-item" data-toggle="collapse" data-target="#room">
+                        Phòng & Giá
+                        </button>
+                    <div id="room" class="collapse">
+                        <a class="dropdown-item" href="#">Phòng</a>
+                        <a class="dropdown-item " href="#">Giá</a>
+                    </div>
+                    <button type="button" class="dropdown-item" data-toggle="collapse" data-target="#restaurant">
+                        Nhà Hàng
+                        </button>
+                    <div id="restaurant" class="collapse">
+                        <a class="dropdown-item" href="#">Nhà Hàng Trúc</a>
+                        <a class="dropdown-item " href="#">Nhà Hàng Nướng</a>
+                    </div>
+                    <button type="button" class="dropdown-item" data-toggle="collapse" data-target="#spa">
+                        SPA
+                        </button>
+                    <div id="spa" class="collapse">
+                        <a class="dropdown-item" href="#">Massage Bấm Huyệt</a>
+                        <a class="dropdown-item " href="#">Xông Hơi</a>
+                    </div>
+                    <button type="button" class="dropdown-item" data-toggle="collapse" data-target="#service">
+                        Dịch Vụ
+                        </button>
+                    <div id="service" class="collapse">
+                        <a class="dropdown-item" href="#">Hội Nghị</a>
+                        <a class="dropdown-item " href="#">Thuê Xe Du Lịch</a>
+                    </div>
+                    <button type="button" class="dropdown-item" data-toggle="collapse" data-target="#tour">
+                       Tours
+                        </button>
+                    <div id="tour" class="collapse">
+                        <a class="dropdown-item" href="#">Vịnh Hạ Long</a>
+                        <a class="dropdown-item" href="#">Sa Pa </a>
+                        <a class="dropdown-item " href="#">Côn Đảo</a>
+                    </div>
+                    <button type="button" class="dropdown-item">
+                       Khuyến Mãi
+                    </button>
+                    <button type="button" class="dropdown-item">
+                       Liên Hệ
+                     </button>
+                </div>
+
+
+            </div>
+            <div class="nameweb">
+                <h1>HOTEL CÔN ĐẢO</h1>
+            </div>
+
+        </div>
+        <div class="title ">
+            <h1>
+                <center>XIN CHÀO QUÝ KHÁCH</center>
+            </h1>
+
+        </div>
+        <div class="white">
+            <div class="calendar container">
+                <center>
+                    <h3>RESERVE</h3>
+                </center>
+                <div>
+                    <b>|</b>&emsp;
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" placeholder="Check in" id="datepicker">
+
+                </div>
+                <div>
+                    <b>|</b>&emsp;
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" placeholder="Check out" id="datepicker1">
+                </div>
+
+                <a href="" class="btn btn-danger" style="height:70%; margin-top:3%">Check Availability</a>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="greeting text-center">
+                <h2><b><u>CHÀO MỪNG ĐẾN VỚI CÔNG ĐẢO HOTEL</u></b></h2>
+            </div>
+            <div class="container">
+                <img src="img/img-gt/img-gt.jpg" alt="https://viettravelo.com/wp-content/uploads/2020/09/Du-lich-Con-Dao-2.jpg">
+                <p>Côn Đảo là một trong những hòn đảo xinh đẹp nhất Việt Nam, là điểm đến lý tưởng cho những ai muốn khám phá vẻ đẹp hoang sơ, tìm hiểu lịch sử và muốn trải nghiệm những khoảnh khắc khó quên cùng biển xanh cát trắng giữa ngàn khơi</p>
+            </div>
+        </div>
+        <div class="highlight">
+            <div class="text-center">
+                <h3>Nổi Bật</h3>
+                <h2>Khuyển Mãi Đặc Biệt</h2>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="borderCreat">
+                            <img src="img/img-nb/img-1.jpg" alt="http://nikkosaigon.webhotel.vn/files/images/special-offer/thanhhuong-185826015803-mo-rong-kien-thuc-du-lich.jpg">
+                            <h4>Biển Xanh Mây Trắng</h4>
+                            <h6>Thoải mái bơi lội, ăn uống và Selfie cùng sóng biển!</h6>
+                            <h6>Chỉ từ 2.299.000 / 2 Người</h6>
+                            <br>
+                            <br>
+                            <a href="">Xem Thêm</a>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="borderCreat">
+                            <img src="img/img-nb/img-1.jpg" alt="http://nikkosaigon.webhotel.vn/files/images/special-offer/thanhhuong-185826015803-mo-rong-kien-thuc-du-lich.jpg">
+                            <h4>Biển Xanh Mây Trắng</h4>
+                            <h6>Thoải mái bơi lội, ăn uống và Selfie cùng sóng biển!</h6>
+                            <h6>Chỉ từ 2.299.000 / 2 Người</h6>
+                            <br>
+                            <br>
+                            <a href="">Xem Thêm</a>
+                        </div>
+
+                    </div>
+                    <div class="col-4">
+                        <div class="borderCreat">
+                            <img src="img/img-nb/img-1.jpg" alt="http://nikkosaigon.webhotel.vn/files/images/special-offer/thanhhuong-185826015803-mo-rong-kien-thuc-du-lich.jpg">
+                            <h4>Biển Xanh Mây Trắng</h4>
+                            <h6>Thoải mái bơi lội, ăn uống và Selfie cùng sóng biển!</h6>
+                            <h6>Chỉ từ 2.299.000 / 2 Người</h6>
+                            <br>
+                            <br>
+                            <a href="">Xem Thêm</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="room">
+            <h1>
+                <center>Phòng</center>
+            </h1>
+            <div class="container">
+
+                <section class="split-screen-cta left-half" id="test1">
+                    <a href="" class="btn" style="position: absolute;bottom:45%; right:20px;color:white; background-color:#69729063;height:50px;"> <b>Phòng Executive Suite</b> </a>
+                </section>
+                <section class="split-screen-cta right-half" id="test2">
+                    <a href="" class="btn" style="position: absolute;bottom:45%; left:0px;color:white;  background-color:#69729063;height:50px;"> <b>Phòng Executive Suite</b> </a>
+                </section>
+            </div>
+
+        </div>
+    </div>
+    <div class="service">
+        <h1>
+            <center>Dịch Vụ</center>
+        </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-4" id="dv1">
+                    <img src="img/img-dv/img-1.jpg" alt="">
+                    <div class="text-center">
+                        <h5>NHÀ HÀNG TRÚC</h5>
+                        Nhà hàng Trúc sở hữu tầm nhìn tuyệt đẹp bao quát toàn thành phố Hồ Chí Minh xinh đẹp, mộng mơ. Chuyến phiêu lưu vị giác của bạn tại đây sẽ bắt đầu bằng bữa sáng tự chọn phong phú.
+                        <br>
+                        <br>
+                        <a href=""><u>Xem Thêm</u></a>
+                    </div>
+
+
+                </div>
+                <div class="col"></div>
+                <div class="col-3 " id="dv2">
+                    <div class="text-center">
+                        <h4>Nhà Hàng Nướng</h4>
+                        <h6><b>Tagline :</b>Thiên đường tiệc nướng trên mây</h6>
+                        <h6><b>Giờ mở cửa: 10:00 đến 24:00</b></h6>
+                        <br>
+                        <br>
+                        <br>
+                        <a href=""><u>Xem thêm</u></a>
+                    </div>
+                </div>
+                <div class="col"></div>
+                <div class="col-4" id="dv3">
+                    <div class="text-center">
+                        <h3>QUẦY BAR</h3>
+                        <p>Quán bar phục vụ các bữa ăn nhẹ, các món kem, món tráng miệng, nước hoa quả, trà, cà phê và cocktail đầy màu sắc. </p>
+
+                        <h6>Giờ mở cửa: 9:00 – 20:00</h6>
+                        <br>
+                        <br>
+                        <a href=""><u>Xem Thêm</u></a>
+                    </div>
+                </div><br>
+                <div class="col-3" style="background-color:#fff; height:350px; margin-top: 10px;">
+                    <div class="text-center">
+                        <h5>Tours</h5>
+                        <p>Khám phá những di tích, danh lam thắng cảnh thơ mộng, cổ kính sẽ là những trải nghiệm khó quên trong lòng du khách trong và ngoài nước.</p>
+                        <br>
+                        <br>
+                        <a href=""><u>Xem Thêm</u></a>
+                    </div>
+                </div>
+                <div class="col-9"></div>
+            </div>
+        </div>
+    </div>
+    <div class="map" style="background-color:#fff;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15776.012360188395!2d106.59660308286985!3d8.691254550088901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3198a939e35fd4f9%3A0x11a99c09af83f0ec!2sHotel%20De%20Condor!5e0!3m2!1svi!2s!4v1619451122930!5m2!1svi!2s"
+            width="1920" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="end text-center" style="background-color: rgb(187 175 151);">
+        <h4>Copyright by Con Dao Hotel. All rights reserved. </h4>
+        <h4>Power by Web.vn</h4>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</body>
+<script src="js/index.js"></script>
+
+</html>

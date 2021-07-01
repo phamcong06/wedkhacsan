@@ -1,0 +1,261 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url(../img/img-body/img-1.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        display: grid;
+    }
+    /* responsive */
+    /*     
+    @media only screen and (max-width: 768px) {
+        .content {
+            width: 100%;
+        }
+        .menu {
+            width: 100%;
+        }
+        .menu-vertical {
+            width: 100%;
+        }
+        .nameweb {
+            width: 100%;
+        }
+        .dropdown-item {
+            width: 100%;
+        }
+    }
+     */
+    
+    .menu-vertical {
+        background-color: #f8f1f1;
+        width: 400px;
+        height: 1000px;
+        font-family: 'Playfair Display', serif;
+        font-size: 25px;
+        display: none;
+        overflow: hidden;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #00000014;
+    }
+    
+    .dropdown-item {
+        height: 70px;
+    }
+    /* menu */
+    
+    .menu .text-center {
+        width: 400px;
+    }
+    
+    .menu h6 {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    
+    .menu button:active {
+        border: none;
+        outline: none;
+    }
+    
+    .nameweb {
+        font-size: 30px;
+        color: #fff;
+        flex-grow: 2;
+        overflow: hidden;
+        margin-left: 400px;
+        text-overflow: clip;
+    }
+    
+    .menu {
+        display: flex;
+        height: 50px;
+        background-color: #69729063;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    .menu.active {
+        background: rgba(5, 117, 182, 0.95);
+        animation: slideDown .5s ease-in-out;
+    }
+    
+    .title {
+        background-color: #69729063;
+        padding-top: 5%;
+        box-sizing: border-box;
+        font-family: 'Orelega One', cursive;
+        color: #fff;
+        height: 200px;
+        width: 100%;
+        float: left;
+    }
+    
+    .white {
+        width: 100%;
+        height: 700px;
+        float: left;
+    }
+    
+    .white .calendar {
+        display: grid;
+        grid-template-columns: 20% 30% 30% 20%;
+        border: 1px solid black;
+        margin-top: 600px;
+        background-color: white;
+    }
+    
+    .white .calendar input {
+        border: 0px solid white;
+    }
+    
+    .white .calendar b {
+        font-size: 20px;
+    }
+    
+    .introduce {
+        float: left;
+        width: 100%;
+        background-color: #fff;
+    }
+    
+    .introduce .greeting {
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Orelega One', cursive;
+    }
+    
+    .introduce .container {
+        border: 10px solid rgba(134, 112, 80, 0.24);
+        height: 610px;
+        width: 1230px;
+        display: flex;
+    }
+    
+    .introduce .container img {
+        height: 500px;
+        width: 800px;
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+    
+    .introduce .container p {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    
+    .highlight {
+        background-color: #fff;
+        float: left;
+        width: 100%;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    
+    .highlight .container .row {
+        box-sizing: border-box;
+    }
+    
+    .highlight .container .col-4 img {
+        width: 100%;
+    }
+    
+    .highlight .container .col-4 .menu {
+        border: 2px solid rgba(87, 80, 80, 0.596);
+        border-radius: 3px 3px 3px;
+        box-shadow: 3px 3px 3px rgba(87, 80, 80, 0.596);
+    }
+    /* room */
+    
+    .room {
+        width: 100%;
+        float: left;
+        background-color: #fff;
+        padding-top: 20px;
+    }
+    
+    .room .container {
+        width: 1170px;
+        height: 400px;
+        position: relative;
+    }
+    
+    #test1 {
+        position: absolute;
+        left: 0;
+        background: red;
+        background-size: cover;
+        background-image: url("../img/img-room/img-don.jpg");
+        height: 382px;
+        width: 582px;
+    }
+    
+    #test2 {
+        position: absolute;
+        right: 0;
+        background: red;
+        background-size: cover;
+        background-image: url("../img/img-room/img-doi.jpg");
+        height: 382px;
+        width: 582px;
+    }
+    /* dịch vụ */
+    
+    .service {
+        float: left;
+        background-color: #f5f1f1;
+        height: 830px;
+    }
+    
+    .service .container .row #dv1 {
+        position: relative;
+        overflow: hidden;
+        height: 400px;
+    }
+    
+    .service .container .row .col-4 img:hover {
+        transform: scale(1.2);
+    }
+    
+    #dv1 img {
+        width: 100%;
+        transition: 3s;
+    }
+    
+    #dv1 .text-center {
+        width: 80%;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 45%;
+        left: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.137);
+    }
+    
+    #dv2 {
+        height: 400px;
+        box-sizing: border-box;
+        padding-top: 10%;
+        background-color: #fff;
+    }
+    
+    #dv3 {
+        background-image: url("../img/img-dv/img-3.jpg");
+        background-size: cover;
+        color: #fff;
+        box-sizing: border-box;
+        padding-top: 10%;
+    }
+    
+    .service .container .row .col-9 {
+        margin-top: 10px;
+        background-image: url("../img/img-dv/img-5.jpg");
+        background-size: cover;
+    }
